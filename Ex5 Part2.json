@@ -1,0 +1,65 @@
+{
+    "pokemons": [
+      {
+        "id": 5,
+        "nom": "Charmeleon",
+        "tipus": ["Foc"],
+        "pes": "19.0 kg",
+        "altura": "1.1 m",
+        "estadistiques": {
+          "velocitat": 80,
+          "fortalesa": 64,
+          "precisio": 80,
+          "resistencia": 58
+        },
+        "moviments": [
+          {
+            "nom": "Llamarada",
+            "descripcio": "Emite una intensa llamarada para dañar al enemigo.",
+            "potencia": 90,
+            "contacte": false
+          },
+          {
+            "nom": "Garra Dragón",
+            "descripcio": "Ataca con afiladas garras de dragón.",
+            "potencia": 80,
+            "contacte": true
+          }
+        ],
+        "imatge": "https://www.wikidex.net/wiki/Archivo:Charmeleon.png",
+        "evolucions": [
+          {"id": 6, "nivell": 36}
+        ]
+      },
+      {
+        "id": 6,
+        "nom": "Charizard",
+        "tipus": ["Foc", "Volador"],
+        "pes": "90.5 kg",
+        "altura": "1.7 m",
+        "estadistiques": {
+          "velocitat": 100,
+          "fortalesa": 84,
+          "precisio": 109,
+          "resistencia": 78
+        },
+        "moviments": [
+          {
+            "nom": "Lanzallamas",
+            "descripcio": "Lanza una potente llamarada para dañar al enemigo.",
+            "potencia": 90,
+            "contacte": false
+          },
+          {
+            "nom": "Vuelo",
+            "descripcio": "Se eleva en el aire y ataca en el siguiente turno.",
+            "potencia": 90,
+            "contacte": true
+          }
+        ],
+        "imatge": "https://www.wikidex.net/wiki/Archivo:Charizard.png",
+        "evolucions": []
+      }
+    ]
+  }
+  
