@@ -1,0 +1,24 @@
+<botiga>
+  <!-- Llista de productes disponibles -->
+  <productes>
+    <!-- Producte 1 -->
+    <producte codi="P123" disponibilitat="en estoc">
+      <!-- Informació del producte 1 -->
+      <nom>Portàtil HP</nom>
+      <descripcio>Portàtil de 15 polzades amb processador Intel i 8 GB de RAM.</descripcio>
+      <preu>605</preu>
+      <categoria>Electrònica</categoria>
+      <imatge>http://www.botiga.com/imatges/portatil_hp.jpg</imatge>
+    </producte>
+    
+    <!-- Producte 2 -->
+    <producte codi="P456" disponibilitat="esgotat">
+      <!-- Informació del producte 2 -->
+      <nom>Ratolí sense fil</nom>
+      <descripcio>Ratolí òptic sense fil ideal per a ordinadors portàtils.</descripcio>
+      <preu>23</preu>   
+      <categoria>Accessoris</categoria>
+      <imatge>http://www.botiga.com/imatges/ratoli_sense_fil.jpg</imatge>
+    </producte>
+  </productes>
+</botiga>
